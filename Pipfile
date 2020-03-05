@@ -8,6 +8,12 @@ pylint = "*"
 
 [packages]
 sanic = "*"
+secure = "*"
+environs = "*"
+sanic-envconfig = "*"
+app = {editable = true,path = "."}
+databases = "*"
+alembic = "*"
 
 [requires]
 python_version = "3.7"
